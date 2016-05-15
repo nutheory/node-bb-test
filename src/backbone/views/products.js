@@ -1,3 +1,5 @@
+// Iterate collection and render product items
+
 define([
 	'jquery',
 	'underscore',

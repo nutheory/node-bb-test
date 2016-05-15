@@ -11,6 +11,7 @@
   <body id="billabong-app">
     {{{ body }}}
 
+    {{!-- Template for product partial --}}
     <script id="product_template" type="text/template">
       <li class="col-xs-12 col-sm-6 col-md-3" data-url="<%= item.url %>">
         <div>
@@ -20,11 +21,6 @@
         </div>
       </li>
     </script>
-    <script id="product_footer" type="text/template">
-        <div>
-          footy
-          <p><%= current %> of <%= max %> products</p>
-        </div>
-    </script>
+    
   </body>
 </html>

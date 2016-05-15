@@ -12,4 +12,4 @@ Req's
 4. new terminal - gulp watch
 5. new terminal - npm install nodemon, then "nodemon index.js"
 
-View Finished product at https://node-bb-test.herokuapp.com/
+...or view finished product at https://node-bb-test.herokuapp.com/

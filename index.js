@@ -9,10 +9,15 @@ app.use(express.static(path.join(__dirname, '/dist')))
 app.set('views', path.join(__dirname, '/dist'))
 app.set('view engine', 'hbs');
 
+
+// Serves main html page with handlebars templating support
 app.get('/', function(req, res) {
   res.render('index', { title: 'Billabong Test' })
 })
 
+
+// API Route for paging through products array
+// Responds with JSON 
 app.get('/products', function(req, res) {
   var end_record = req.query.page*req.query.page_size
   var start_record = end_record - req.query.page_size

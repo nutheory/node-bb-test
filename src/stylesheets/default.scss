@@ -1,5 +1,8 @@
+// Set common variables
 $button-color: #1F7F5C;
 $button-color-hover:#2D2D2D;
+
+// Mixin for Common button attributes - accepts padding param
 @mixin button($padding){
   color: #fff;
   display: block;

@@ -1,3 +1,5 @@
+// load main App and setup products UL
+
 define([
 	'jquery',
 	'underscore',
@@ -19,6 +21,7 @@ define([
 			$('#about').fadeIn()
     },
 
+		// fetch results based on page
 		get_product_results: function(page){
 			this.page = page || 1
 			var productList = new ProductList()

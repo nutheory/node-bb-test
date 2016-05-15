@@ -2,6 +2,7 @@ var path = require('path'),
     appRoot = './src/',
     outputRoot = './dist/'
 
+// Convenience module for organizing dist directory 
 module.exports = {
   sBackbone:      appRoot + 'backbone/**/*',
   dBackbone:      outputRoot,
