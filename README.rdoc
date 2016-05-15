@@ -1,4 +1,15 @@
 == Billabong Test
 
 === Setup
-1. Clone Repo
+Req's
+- Node
+- NPM
+
+
+1. clone repo
+2. cd to directory
+3. npm install
+4. new terminal - gulp watch
+5. new terminal - npm install nodemon, then "nodemon index.js"
+
+View Finished product at https://node-bb-test.herokuapp.com/

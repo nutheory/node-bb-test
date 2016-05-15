@@ -60,11 +60,3 @@ gulp.task('libs', function() {
     .pipe(gulp.dest(paths.dJS_lib))
     .pipe(notify({ message: 'Moved JS Libs' }))
 })
-
-// gulp.task('build', function(callback) {
-//   return runSequence(
-//     'clean',
-//     ['views', 'js', 'libs', 'styles', 'images'],
-//     callback
-//   )
-// })
