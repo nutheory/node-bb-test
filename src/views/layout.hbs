@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/default.css">
+    <script type="text/javascript" src="js/require.js" data-main="js/config"></script>
+  </head>
+  <body id="billabong-app">
+    {{{ body }}}
+
+    <script id="product_template" type="text/template">
+      <li class="col-xs-12 col-sm-6 col-md-3" data-url="<%= item.url %>">
+        <div>
+          <img src="<%= item.img %>" alt="<%= item.name %>" />
+          <p class="name"><%= item.name %></p>
+          <p><%= item.price %></p>
+        </div>
+      </li>
+    </script>
+    <script id="product_footer" type="text/template">
+        <div>
+          footy
+          <p><%= current %> of <%= max %> products</p>
+        </div>
+    </script>
+  </body>
+</html>

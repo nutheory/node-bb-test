@@ -1,0 +1,56 @@
+$button-color: #1F7F5C;
+$button-color-hover:#2D2D2D;
+@mixin button($padding){
+  color: #fff;
+  display: block;
+  padding: $padding;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header{
+  #logo{
+    margin: 60px 0;
+  }
+  #about{
+    margin: 30px 0;
+    display: none;
+    strong {
+      text-transform: uppercase;
+    }
+  }
+}
+
+ul#products{
+  list-style: none;
+  padding: 0;
+  overflow: auto;
+  li{
+    cursor: pointer;
+    margin-top: 40px;
+    div{
+      img{
+        width: 100%;
+      }
+      p{
+        text-align: center;
+      }
+      p.name{
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+footer{
+  margin: 60px 0;
+  a:link, a:visited, a:active, a:hover{
+    transition: all 0.5s ease;
+    @include button(14px 0);
+    background-color: $button-color;
+  }
+  a:hover {
+    background-color: $button-color-hover;
+  }
+}

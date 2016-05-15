@@ -1,0 +1,36 @@
+header #logo {
+  margin: 60px 0; }
+
+header #about {
+  margin: 30px 0;
+  display: none; }
+  header #about strong {
+    text-transform: uppercase; }
+
+ul#products {
+  list-style: none;
+  padding: 0;
+  overflow: auto; }
+  ul#products li {
+    cursor: pointer;
+    margin-top: 40px; }
+    ul#products li div img {
+      width: 100%; }
+    ul#products li div p {
+      text-align: center; }
+    ul#products li div p.name {
+      font-weight: bold; }
+
+footer {
+  margin: 60px 0; }
+  footer a:link, footer a:visited, footer a:active, footer a:hover {
+    transition: all 0.5s ease;
+    color: #fff;
+    display: block;
+    padding: 14px 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #1F7F5C; }
+  footer a:hover {
+    background-color: #2D2D2D; }
